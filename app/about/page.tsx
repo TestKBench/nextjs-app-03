@@ -11,10 +11,10 @@ export default function About() {
     <main className={styles.main}>
       <h1 className={styles.title}>About Us</h1>
       <p className={styles.description}>
-        This is a Next.js 14.0 application using the App Router.
+        This is a Next.js application using the App Router.
       </p>
-      <Link href="/">
-        <a className={styles.link}>← Back to Home</a>
+      <Link href="/" className={styles.link}>
+        &larr; Back to Home
       </Link>
     </main>
   )
